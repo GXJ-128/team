@@ -1,0 +1,488 @@
+body,html{
+    width:100%;
+    height:100%;
+}
+#All{ 
+    width:100%;
+    height:100%;
+    background-image: linear-gradient(0deg,#00b781 0%,#2c9658 100%);
+}
+.head{
+    width:100%;
+    height:10rem;
+}
+.head img{
+    width:100%;
+    height:10rem;
+    margin:0 auto
+}
+
+.section{
+    width: 100%;
+    /* height: 62rem; */
+    background-image: linear-gradient(0deg,#00b781 0%,#2c9658 100%);
+    margin-top: -1.5rem;
+}
+.word{
+    width:100%
+}
+.word .myzd{
+    width: 6rem;
+    height: 2rem;
+    background-color:#fffae6;
+    border-radius: 1rem;
+    margin-top:2rem;
+    margin-left:2rem;
+    float: left;
+    display: block;
+    position: relative;
+}
+.myzd i{
+    width:1rem;
+    height:1rem;
+    background-image: url(../images/06.png);
+    background-repeat: no-repeat; 
+    background-size:1rem 1rem;
+    display: inline-block;
+    position: absolute;
+    top:0.55rem;
+    left:1rem;
+}
+.myzd span{
+    position: absolute;
+    top:0.6rem;
+    left:2.2rem;
+    font-family: PingFangSC-Regular;
+    font-size: 0.65rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 1rem;
+    letter-spacing: 0rem;
+    color: #2a975a;
+}
+.section .mydjj{
+    width: 6rem;
+    height: 2rem;
+    background-color:#fffae6;
+    border-radius: 1rem;
+    margin-top:2rem;
+    margin-right:1.8rem;
+    float:right;
+    position: relative;
+}
+.mydjj i{
+    width:1rem;
+    height:1rem;
+    background-image: url(../images/05.png);
+    background-repeat: no-repeat; 
+    background-size:1rem 1rem;
+    display: inline-block;
+    position: absolute;
+    top:0.55rem;
+    left:1rem;
+}
+.mydjj span{
+    position: absolute;
+    top:0.6rem;
+    left:2.2rem;
+    font-family: PingFangSC-Regular;
+    font-size: 0.65rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 1rem;
+    letter-spacing: 0rem;
+    color: #2a975a;
+}
+.write{
+    width:11rem;
+    height:1rem;
+    margin:0 auto;
+    padding-top:5rem;
+    padding-bottom:1rem;
+    text-align: center;
+    font-family: PingFangSC-Medium;
+    font-size: 0.65rem;
+    font-weight: normal;
+    font-stretch: normal;
+    color:#ffffff;
+}
+.content{
+    width:100%;
+}
+.img{
+    margin:0 auto;
+    text-align: center;
+    padding-bottom:1rem;
+    width:14rem;
+}
+.img img{
+    width:100%;
+}
+.picture{
+    margin:0 auto;
+    text-align: center;
+    padding-bottom:1.5rem;
+    width:14rem;
+}
+.picture img{
+    width:100%；
+}
+.first{
+    width:14rem;
+    height:15rem;
+    margin:0 auto;
+    background-image:url(../images/xq.png);
+    background-repeat: no-repeat; 
+    background-size:14rem 15rem;
+    position: relative;
+    padding-bottom:1.25rem;
+}
+.first .sa{
+    /* height: 3.5rem;
+    background-color: #cbf0de; */
+    padding-left:1rem;
+}
+.first .sa h1{
+    width: 1.5rem;
+    height: 1.5rem;
+    font-family: DFYaSongW9-GB5;
+    font-size: 1.5rem;
+    font-weight: normal;
+    font-style: italic;
+    font-stretch: normal;
+    line-height:3rem;
+    letter-spacing: 0rem;
+    color: #01b95f;
+}
+.first .sa span{
+    display: inline-block;
+    font-family: PingFangSC-Regular;
+    font-size: 1rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 1rem;
+    letter-spacing: 0rem;
+    color: #1c7f56;
+    margin-left:2rem;
+    margin-top:-1rem;
+}
+.first .height h2{
+    position: absolute;
+    top:5.95rem;
+    left:5.2rem;
+    font-family: PingFangSC-Regular;
+    font-size: 0.75rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0rem;
+    color: #008c50;
+}
+.first .height h1{
+    position: absolute;
+    top:7.45rem;
+    left:4.75rem; 
+    /* width: 12rem; */
+    /* height: 4rem; */
+    font-family: PingFangSC-Medium;
+    font-size: 1.75rem;
+    font-weight: normal;
+    font-stretch: normal;
+    /* line-height: 7rem; */
+    letter-spacing: 0rem;
+    color: #ff9407;
+}
+.first .height span{
+    position: absolute;
+    top:8.3rem;
+    left:8.85rem;
+    font-family: PingFangSC-Regular;
+    font-size: 0.75rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0rem;
+    color: rgba(0, 140, 80, 0.7);
+}
+.first .more{
+    position: absolute;
+    top:10rem;
+    left:3.5rem;
+    width:6.5rem;
+    height:2rem;
+    background-color: #28995c;
+    border-radius:1.5rem;
+    border:solid 0rem #30be71;
+    text-align: center;
+    line-height: 2rem;
+}
+.first .more span{
+    display: inline-block;
+    font-family: PingFangSC-Regular;
+    font-size: 0.7rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 2rem;
+    letter-spacing: 0rem;
+    color: #ffffff;
+}
+.first .ask{
+    position: absolute;
+    top:13.2rem;
+    left:6rem;
+}
+.first .ask span{
+        font-family: PingFangSC-Regular;
+        font-size: 0.5rem;
+        font-weight: normal;
+        font-stretch: normal;
+        letter-spacing: 0rem;
+        color: #00a15e;
+}
+.second{
+    width:14rem;
+    height:15rem;
+    margin:0 auto;
+    background-image:url(../images/xq.png);
+    background-repeat: no-repeat; 
+    background-size:14rem 15rem;
+    position: relative;
+    padding-bottom:1.5rem;
+}
+.second .sa{
+    /* height: 3.5rem;
+    background-color: #cbf0de; */
+    padding-left:1rem;
+}
+.second .sa h1{
+    width: 1.5rem;
+    height: 1.5rem;
+    font-family: DFYaSongW9-GB5;
+    font-size: 1.5rem;
+    font-weight: normal;
+    font-style: italic;
+    font-stretch: normal;
+    line-height:3rem;
+    letter-spacing: 0rem;
+    color: #01b95f;
+}
+.second .sa span{
+    display: inline-block;
+    font-family: PingFangSC-Regular;
+    font-size: 1rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 1rem;
+    letter-spacing: 0rem;
+    color: #1c7f56;
+    margin-left:2rem;
+    margin-top:-1rem;
+}
+.second .height h2{
+    position: absolute;
+    top:5.95rem;
+    left:5.2rem;
+    font-family: PingFangSC-Regular;
+    font-size: 0.75rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0rem;
+    color: #008c50;
+}
+.second .height h1{
+    position: absolute;
+    top:7.45rem;
+    left:4.75rem; 
+    /* width: 12rem; */
+    /* height: 4rem; */
+    font-family: PingFangSC-Medium;
+    font-size: 1.75rem;
+    font-weight: normal;
+    font-stretch: normal;
+    /* line-height: 7rem; */
+    letter-spacing: 0rem;
+    color: #ff9407;
+}
+.second .height span{
+    position: absolute;
+    top:8.3rem;
+    left:9.9rem;
+    font-family: PingFangSC-Regular;
+    font-size: 0.75rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0rem;
+    color: rgba(0, 140, 80, 0.7);
+}
+.second .more{
+    position: absolute;
+    top:10rem;
+    left:3.5rem;
+    width:6.5rem;
+    height:2rem;
+    background-color: #28995c;
+    border-radius:1.5rem;
+    border:solid 0rem #30be71;
+    text-align: center;
+    line-height: 2rem;
+}
+.second .more span{
+    display: inline-block;
+    font-family: PingFangSC-Regular;
+    font-size: 0.7rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 2rem;
+    letter-spacing: 0rem;
+    color: #ffffff;
+}
+.second .ask{
+    position: absolute;
+    top:13.2rem;
+    left:6rem;
+}
+.second .ask span{
+        font-family: PingFangSC-Regular;
+        font-size: 0.5rem;
+        font-weight: normal;
+        font-stretch: normal;
+        letter-spacing: 0rem;
+        color: #00a15e;
+}
+.rule{
+    width:14rem;
+    margin:0 auto;
+    height: 17.592rem;
+}
+.rule h3{
+    width: 5rem;
+    height: 1rem;
+    font-family: FZHZGBJW--GB1-0;
+    font-size: 1rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 1rem;
+    letter-spacing: 0rem;
+    color: #ffffff;
+}
+.rule p{
+    font-family: PingFangSC-Regular;
+    font-size: 0.5rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 1rem;
+    letter-spacing: 0rem;
+    color: #ffffff;
+}
+/*1*/
+body{
+    width:100%;
+    height:29rem;
+    background:#F5F8FA;
+}
+*{
+    padding:0;
+    margin:0;
+}
+.box{
+    width:100%;
+    height:100%;
+    background: url(../images/bj.png) no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+.cover{
+    width:100%;
+    height:100%;
+    background:#000;
+    opacity:0.3;
+}
+
+.cont{
+    width: 87%;
+    height: 76%;
+    background: #fff;
+    position: absolute;
+    top: 3.8rem;
+    left: 1rem;
+    border-radius: 0.5rem;
+}
+.conts{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.cont .xq{
+    display: inline-block;
+    width:100%;
+    height:0.725rem;
+    line-height: 0.725rem;
+    text-align: center;
+    margin-top: 0.8rem;
+    color: #00913e;
+    font-size: 0.75rem;
+}
+.cont .close{
+    color: #00913e;
+    font-size: 1rem;
+    position: absolute;
+    top:0.4rem;
+    right:1rem;
+}
+
+.rule1{
+    width: 90%;
+    height: 2.925rem;
+    margin-top: 0.8rem;
+    margin-left: 0.7rem;
+    color: #333;
+    font-size: 0.75rem;
+}
+
+.pai{
+    display: inline-block;
+    width: 90%;
+    height: 0.725rem;
+    margin-top: 0.5rem;
+    margin-left: 0.7rem;
+    color: #666;
+    font-size: 0.7rem;
+}
+.if{
+    display: inline-block;
+    width: 90%;
+    height: 0.725rem;
+    margin-top: 0.5rem;
+    margin-left: 0.7rem;
+    color: #666;
+    font-size: 0.7rem; 
+}
+.table{
+    width: 95%;
+    height: 12.725rem;
+    margin-top: 0.5rem;
+    margin-left: 0.3rem;
+    color: #666;
+    font-size: 0.7rem;
+    border-radius: 0.5rem;
+    border:1px solid #ccc; 
+}
+.tab{
+    width:100%;
+    height:1.7rem;
+    color:#666;
+    font-size:0.7rem;
+}
+
+.left{
+    width:37%;
+    height:1.7rem;
+    text-align: center;
+    line-height: 1.7rem;
+    float: left;
+}
+.right{
+    width:37%;
+    height:1.7rem;
+    text-align: center;
+    line-height: 1.7rem;
+    float: right;
+}
